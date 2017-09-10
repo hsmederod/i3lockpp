@@ -1,13 +1,13 @@
-<h1><bold>i3lock++</bold></h1>
+#i3lock++
+Lock your screen with effects !!
 
-    bin/ --> usefuls script for i3
-    
-    conf/ --> configuration files
+##Project description
+* bin/ --> usefuls script for i3
+* conf/ --> configuration files
+* makefile --> install collection
 
-    makefile --> install collection
+##Usage of makefile
 
-Usage of makefile
-
-To install collection run:   make install
-To uninstall collection run: make uninstall
-To check dependecies run:    make check
+* *install collection run:   make install
+* *uninstall collection run: make uninstall
+* *To check dependecies run:    make check
