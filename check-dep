@@ -4,9 +4,9 @@ which convert i3lock scrot  > /dev/null 2>&1
 
 if [ $? != 0 ]
 then
-    echo -ne "CHECK DEPENDECIES\n"
+    echo -ne "Dependencies are not satisfied\n"
     exit 1
 else
-    echo -ne "OK\n"
+    echo -ne "Dependencies are satisfied\n"
     exit 0
 fi

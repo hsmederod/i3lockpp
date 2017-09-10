@@ -33,5 +33,5 @@ i3lock++ [EFFECT]
 Check dependencies and run i3lock++ 
 
 ```
-bash check-dep && i3lock++ [EFFECT]
+./check-dep && ./i3lock++ [EFFECT]
 ```
