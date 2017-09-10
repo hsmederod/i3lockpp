@@ -1,13 +1,37 @@
 # i3lock++
-Lock your screen with effects !!
+Lock your screen with original background !!
 
 ## Project description
-* bin/ --> usefuls script for i3
-* conf/ --> configuration files
-* makefile --> install collection
+The idea is simple : 
+* take a screeshoot of current window
+* apply an effect to screenshoot
+* use i3lock to lock screen
 
-## Usage of makefile
+## Dependencies
+* *imagemagick*
+* *i3lock*
+* *scrot*
 
-* *install*   :   make install
-* *uninstall* : make uninstall
-* *To check*  :    make check
+## List of effects
+* blur
+* pixel
+* gray
+* sepia
+* charcoal
+* paint
+* spread
+* vignette
+
+## Usage
+Very simple !
+
+```
+i3lock++ [EFFECT]
+```
+
+## Tips
+Check dependencies and run i3lock++ 
+
+```
+bash check-dep && i3lock++ [EFFECT]
+```
