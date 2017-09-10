@@ -1,5 +1,4 @@
-This is a small collection of i3 configuration
-See together the content of directories
+<h1><bold>i3lock++</bold></h1>
 
     bin/ --> usefuls script for i3
     
