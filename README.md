@@ -3,8 +3,8 @@ Lock your screen with original background !!
 
 ## Project description
 The idea is simple : 
-* take a screeshoot of current window
-* apply an effect to screenshoot
+* take a screeshot of current window
+* apply an effect to screenshot
 * use i3lock to lock screen
 
 ## Dependencies
