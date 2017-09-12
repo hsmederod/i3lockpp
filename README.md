@@ -10,7 +10,6 @@ The idea is simple :
 ## Dependencies
 * *imagemagick*
 * *i3lock*
-* *scrot*
 
 ## List of effects
 * blur

@@ -7,7 +7,7 @@
 # Dependencies:                  #   -  blur                       #
 #    - imagemagick               #   -  pixel                      #
 #    - i3lock                    #   -  gray                       #
-#    - scrot                     #   -  sepia                      #
+#                                #                                 #
 # Usage:                         #   -  charcoal                   #
 #    i3lock++ [EFFECT]           #   -  paint                      #
 #                                #   -  spread                     #         
@@ -16,8 +16,8 @@
 #                                #                                 #
 ####################################################################
 
-IMG=/tmp/i3lock.png              # path of screenshot
-SCT="scrot $IMG"                 # screenshot command
+IMG='/tmp/i3lock.png'            # path of screenshot
+SCT='import -window root'        # screenshot command
 
               ##########################################
               #                                        #
@@ -38,7 +38,7 @@ SPREAD="-interpolate nearest -virtual-pixel mirror -spread 5"
 VIGNETTE="-background black -vignette 0x5" 
 
 # Take screenshot
-scrot $IMG
+$SCT $IMG
 
 # Choose the effect
 case "$1" in

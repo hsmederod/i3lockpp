@@ -1,6 +1,6 @@
 #!/bin/bash
 
-which convert i3lock scrot  > /dev/null 2>&1
+which convert i3lock import  > /dev/null 2>&1
 
 if [ $? != 0 ]
 then
