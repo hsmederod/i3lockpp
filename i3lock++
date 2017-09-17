@@ -69,10 +69,10 @@ case "$1" in
 
     *) 
         echo -ne "Usage : i3lock++ [EFFECT]\n"
-        rm $IMG
+        rm -f $IMG
         exit 1 ;; # exit with error 
 esac
 
 # Lock with screenshot
 i3lock -i $IMG
-rm $IMG
+rm  -f $IMG
